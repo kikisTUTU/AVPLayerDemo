@@ -13,8 +13,8 @@ Pod::Spec.new do |spec|
   spec.summary      = "test"
 
   spec.description  = <<-DESC
-              test
-                   DESC
+  test
+  DESC
 
   spec.homepage     = "https://github.com/kikisTUTU/AVPLayerDemo"
   
@@ -36,13 +36,8 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig =   { 'VALID_ARCHS' =>  ['x86_64', 'arm64']}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  # spec.vendored_frameworks = ["*.framework","LightGame/*.framework","Network/*.framework","ThirdAdSDKs/GDTMobSDK/*.framework","ThirdAdSDKs/KSAdSDK/*.framework"]
-  # spec.source_files = "LightGameSDKParam.plist"
-  # spec.vendored_libraries = "ThirdAdSDKs/GDTMobSDK/lib/*.a"
-  # spec.source_files = "ThirdAdSDKs/GDTMobSDK/lib/*.h"
-  spec.source = ['AVPlayerDemo/PlayerView.h','AVPlayerDemo/PlayerView.m']
-  # spec.resource = '*.bundle'
-  # spec.dependency 'KTMMjuheSDK'
+  spec.source_files = "AVPlayerDemo/*.h", "AVPlayerDemo/*.m"
+
 end
 
 
