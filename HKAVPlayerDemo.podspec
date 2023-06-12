@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/kikisTUTU/AVPLayerDemo"
   
-  #spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
  
