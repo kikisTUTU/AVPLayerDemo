@@ -18,7 +18,6 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/kikisTUTU/AVPLayerDemo"
   
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
  
   spec.author    = "hekai"
