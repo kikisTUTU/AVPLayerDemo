@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/kikisTUTU/AVPLayerDemo"
   
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
  
   spec.author    = "hekai"
@@ -28,6 +29,7 @@ Pod::Spec.new do |spec|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
  
   spec.source       = { :git => "https://github.com/kikisTUTU/AVPLayerDemo.git", :tag => spec.version }
+
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files = "AVPlayerDemo/*.h", "AVPlayerDemo/*.m"
