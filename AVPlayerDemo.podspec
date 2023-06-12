@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "AVPlayerDemo"
+  spec.name         = "HKAVPlayerDemo"
   spec.version      = "1.0.0"
   spec.summary      = "test"
 
